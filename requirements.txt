@@ -1,0 +1,11 @@
+# Install requirements
+tensorflow==1.15.0
+protobuf==3.6.0
+pillow
+lxml
+Cython 
+contextlib2
+jupyter
+matplotlib
+pandas
+opencv-python 
