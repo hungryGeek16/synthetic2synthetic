@@ -145,6 +145,8 @@ eval_input_reader {
 
 * Dataset can be found [here](https://drive.google.com/file/d/1NucPkIvxsbggNw6ExjSV9wGzrS2W3S_t/view?usp=sharing), it has annotations.csv which has filename,xmin,ymin,xmax,ymax and class as columns.
 
+* Details about training the model is given in this [jupyter_notebook](https://github.com/rahulmangalampalli/synthetic2synthetic/blob/main/Hackathon_syn.ipynb), it was trained on google with gpu mode.
+
 * **Some detections**:
 
 <p align="center">
