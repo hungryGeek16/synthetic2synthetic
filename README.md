@@ -145,9 +145,16 @@ eval_input_reader {
 
 * Dataset can be found [here](https://drive.google.com/file/d/1NucPkIvxsbggNw6ExjSV9wGzrS2W3S_t/view?usp=sharing), it has annotations.csv which has filename,xmin,ymin,xmax,ymax and class as columns.
 
-* **Some images from the dataset**:
-
 * **Some detections**:
+
+<p align="center">
+  <img src="detect/detected_1.jpg" width = 480>
+</p>
+
+
+<p align="center">
+  <img src="detect/detected_4.jpg" width = 480>
+</p>
 
 ### How to use the model:
 
