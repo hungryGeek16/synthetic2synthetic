@@ -9,3 +9,4 @@ jupyter
 matplotlib
 pandas
 opencv-python 
+gdown
