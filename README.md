@@ -158,6 +158,12 @@ eval_input_reader {
 ```python
 %cd synthetic2synthetic
 pip3 install -r requirements.txt
+!gdown 1sqDieIPtY4qifsbjBPFcbLQb79Evy4l2 # Downloads model, keep it in the synthetic2synthetic directory.
 ```
 
+* Run the program:
+
+```python
+python3 detect.py "/path/to/image"
+```
 
