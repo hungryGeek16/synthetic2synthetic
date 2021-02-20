@@ -8,7 +8,7 @@ import cv2
 import tensorflow as tf
 from utils import label_map_util
 from utils import visualization_utils as vis_util
-
+import sys
 di = {}
 
 with tf.Graph().as_default() as graph: # Set default graph as graph
@@ -41,7 +41,7 @@ with tf.Graph().as_default() as graph: # Set default graph as graph
         detection_classes = graph.get_tensor_by_name('detection_classes:0')
         num_detections = graph.get_tensor_by_name('num_detections:0')
         
-        image = cv2.imread("test1.jpg")
+        image = cv2.imread(sys.argv[1])
         image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         image_expanded = np.expand_dims(image_rgb, axis=0)
         
