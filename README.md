@@ -157,7 +157,7 @@ eval_input_reader {
 
 ```python
 %cd synthetic2synthetic
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 
