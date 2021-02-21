@@ -176,3 +176,22 @@ pip3 install -r requirements.txt
 python3 detect.py "/path/to/image"
 ```
 
+### Synthetic2Real challenge:
+
+* The same model used for synthetic2sythetic was used for this model also.
+
+* 500 real and 500 synthetic images were used for training.
+
+* The frozen graph can be found [here](https://drive.google.com/file/d/1nwFdiH0KMpUOdZ_CEv9GLOsN2bAZblpY/view?usp=sharing)
+
+* Some detections:
+
+<p align="center">
+  <img src="detect/detected_2.jpg" width = 480>
+</p>
+
+<p align="center">
+  <img src="detect/detected_3.jpg" width = 480>
+</p>
+
+* Training Info can be found [here](https://github.com/rahulmangalampalli/synthetic2synthetic/blob/main/Synthetic2Real.ipynb)
